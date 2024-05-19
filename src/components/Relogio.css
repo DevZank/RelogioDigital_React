@@ -1,0 +1,25 @@
+main {
+  width: 100vw;
+  height: 100vh;
+
+  background: url("../assets/BG.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+
+  div {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    left: 0;
+    p {
+      font-size: 15rem; /* Tamanho grande para parecer um relógio digital */
+      color: #ffffff; /* Cor do texto */
+      text-align: center;
+      letter-spacing: 10px; /* Espaçamento para que os números fiquem separados como em um display */
+      text-shadow: 4px 4px 10px #ff0000, -4px -4px 10px #ff0000,
+        4px -4px 10px #ff0000, -4px 4px 10px #ff0000, 4px 0 10px #ff0000,
+        -4px 0 10px #ff0000, 0 4px 10px #ff0000, 0 -4px 10px #ff0000; /* Cria a borda ao redor do texto */
+    }
+  }
+}

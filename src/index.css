@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "DS-Digital";
+  src: url("./assets/fonts/DS-DIGI.TTF") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DS-Digital", monospace;
+
+  user-select: none;
+}
